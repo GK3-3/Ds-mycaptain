@@ -1,8 +1,11 @@
 s=input("Please Enter a string ")
 def most_frequent(string):
     l=[]
-    for i in range(len(s)):
-        l.append(s[i])
+    def lower(String):
+        return s.lower()
+    s1=lower(s)
+    for i in range(len(s1)):
+        l.append(s1[i])
     se=set(l)
     l1=[]
     for i in se:
