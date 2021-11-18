@@ -1,4 +1,4 @@
-s=input("Please Enter a string")
+s=input("Please Enter a string ")
 def most_frequent(string):
     l=[]
     for i in range(len(s)):
